@@ -1,4 +1,6 @@
 Mygrades::Application.routes.draw do
+  resources :courses
+
   resources :roles
 
   resources :users
